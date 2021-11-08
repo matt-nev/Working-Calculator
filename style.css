@@ -1,7 +1,7 @@
 .calc {
   display: grid;
-  background-color: orangered;
-  width: 400px;
+  background-color: #ff4500;
+  width: 450px;
   height: 650px;
   border: 50px;
   border-color: red;
@@ -10,30 +10,30 @@
   border-radius: 30px;
 }
 .button {
-  background-color: darkgoldenrod;
-  cursor: grab;
+  background-color: #b8860b;
+  cursor: pointer;
   margin: auto;
   width: 100px;
   height: 100px;
   font-size: xx-large;
 }
-.otherbutton {
-  background-color: darkgoldenrod;
+/*.otherbutton {
+  background-color: #b8860b;
   cursor: grab;
   margin: auto;
   width: 200px;
   height: 100px;
   font-size: xx-large;
-}
+}*/
 .button:hover {
-  background-color: moccasin;
+  background-color: #ffe4b5;
 }
-.otherbutton:hover {
-  background-color: moccasin;
-}
+/*.otherbutton:hover {
+  background-color: #ffe4b5;
+}*/
 .input {
   position: center;
-  background-color: yellow;
+  background-color: #ff0;
   margin: auto;
   width: 300px;
   height: 75px;
