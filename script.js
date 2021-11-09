@@ -13,7 +13,7 @@ for (var i = 0; i < values.length; i++) {
 
       case "x":
         if (screen.innerText) {
-          screen.innerText = screen.innerText.slice(0, -1);
+          display.innerText = display.innerText.slice(0, -1);
         }
         break;
 
