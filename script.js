@@ -1,35 +1,42 @@
-let values = document.querySelectorAll(".button");
-let screen = document.querySelector(".output");
+var values = document.querySelectorAll(".button span");
+var display = document.querySelector(".display");
 
 for (var i = 0; i < values.length; i++) {
   values[i].addEventListener("click", function () {
     switch (
-      this.innerText
+      this.innerText 
     ) {
       case "C":
-        output.innerText = "";
+        display
+    .innerText = "";
         break;
 
       case "x":
-        if (input.innerText) {
-          output.innerText = output.innerText.slice(0, -1);
+        if (screen.innerText) {
+          screen.innerText = screen.innerText.slice(0, -1);
         }
         break;
 
       case "%":
-        output.innerText = eval(output.innerText) / 100;
+        display
+    .innerText = eval(display
+        .innerText) / 100;
         break;
 
       case "=":
         try {
-          output.innerText = eval(output.innerText);
+          display
+        .innerText = eval(display
+        .innerText);
         } catch {
-          output.innerText = "Error";
+          display
+        .innerText = "Error";
         }
         break;
 
       default:
-        output.innerText += this.innerText;
+        display
+    .innerText += this.innerText;
     }
   });
 }

@@ -1,21 +1,35 @@
+h1 {
+  text-align: center;
+  font-family: Arial;
+  font-size: medium;
+}
 .calc {
   display: grid;
   background-color: #ff4500;
   width: 450px;
-  height: 650px;
+  height: 550px;
   border: 50px;
   border-color: red;
   padding: 50px;
   margin: auto;
   border-radius: 30px;
 }
-.button {
+.calc .button {
   background-color: #b8860b;
   cursor: pointer;
   margin: auto;
   width: 100px;
   height: 100px;
   font-size: xx-large;
+}
+.calc .button span {
+  background-color: #b8860b;
+  cursor: pointer;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  font-size: xx-large;
+  position: center;
 }
 /*.otherbutton {
   background-color: #b8860b;
@@ -25,36 +39,37 @@
   height: 100px;
   font-size: xx-large;
 }*/
-.button:hover {
+.button span:hover {
   background-color: #ffe4b5;
 }
 /*.otherbutton:hover {
   background-color: #ffe4b5;
 }*/
-.input {
+.calc .display {
   position: center;
-  background-color: #ff0;
+  background-color: rgb(255, 255, 255);
   margin: auto;
   width: 300px;
   height: 75px;
   font-size: xx-large;
   text-align: right;
 }
-.row1 {
-  position: relative;
+.calc .button .row1 {
+  position: center;
   margin: auto;
 }
-.row2 {
+.row2 span {
   position: center;
   margin: auto;
 }
 .row3 {
   position: center;
-  margin: auto;
 }
 .row4 {
+  position: center;
   margin: auto;
 }
 .row5 {
+  position: center;
   margin: auto;
 }
