@@ -12,6 +12,7 @@ h1 {
   text-align: right;
   font-family: arial;
   border-radius: 10px;
+  box-shadow: 2px 2px grey;
 }
 .calc {
   display: grid;
@@ -20,11 +21,12 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #ff4500;
+  background-color: #f08409;
   width: 450px;
   height: 550px;
   border-color: red;
   border-radius: 20px;
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
 }
 .calc .button {
   display: grid;
@@ -35,12 +37,14 @@ h1 {
   grid-row-gap: 10px;
   grid-column-gap: 10px;
   text-align: center;
+  text-decoration-color: ;
 }
 .calc .button span {
   background-color: #b8860b;
   cursor: pointer;
   font-size: xx-large;
   border-radius: 20px;
+  box-shadow: 1px 1px 1px black;
 }
 .button span:hover {
   background-color: #ffe4b5;
