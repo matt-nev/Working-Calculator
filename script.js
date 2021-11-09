@@ -10,7 +10,7 @@ for (var i = 0; i < values.length; i++) {
         display
     .innerText = "";
         break;
-
+      /*
       case "*":
         if (display.innerText) {
           display.innerText = display.innerText.slice(0, -1);
@@ -22,7 +22,7 @@ for (var i = 0; i < values.length; i++) {
     .innerText = eval(display
         .innerText) / 100;
         break;
-
+      */
       case "=":
         try {
           display
