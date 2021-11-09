@@ -3,73 +3,45 @@ h1 {
   font-family: Arial;
   font-size: medium;
 }
+.calc .display {
+  background-color: #fbff00;
+  margin: auto;
+  width: 400px;
+  height: 38px;
+  font-size: xx-large;
+  text-align: right;
+  font-family: arial;
+  border-radius: 10px;
+}
 .calc {
   display: grid;
+  border: 10px solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: #ff4500;
   width: 450px;
   height: 550px;
-  border: 50px;
   border-color: red;
-  padding: 50px;
-  margin: auto;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 .calc .button {
-  background-color: #b8860b;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   cursor: pointer;
-  margin: auto;
-  width: 100px;
-  height: 100px;
   font-size: xx-large;
+  font-family: Arial;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  text-align: center;
 }
 .calc .button span {
   background-color: #b8860b;
   cursor: pointer;
-  margin: auto;
-  width: 100px;
-  height: 100px;
   font-size: xx-large;
-  position: center;
+  border-radius: 20px;
 }
-/*.otherbutton {
-  background-color: #b8860b;
-  cursor: grab;
-  margin: auto;
-  width: 200px;
-  height: 100px;
-  font-size: xx-large;
-}*/
 .button span:hover {
   background-color: #ffe4b5;
-}
-/*.otherbutton:hover {
-  background-color: #ffe4b5;
-}*/
-.calc .display {
-  position: center;
-  background-color: #fbff00;
-  margin: auto;
-  width: 300px;
-  height: 75px;
-  font-size: xx-large;
-  text-align: right;
-}
-.calc .button .row1 {
-  position: center;
-  margin: auto;
-}
-.row2 span {
-  position: center;
-  margin: auto;
-}
-.row3 {
-  position: center;
-}
-.row4 {
-  position: center;
-  margin: auto;
-}
-.row5 {
-  position: center;
-  margin: auto;
 }
