@@ -11,8 +11,8 @@ for (var i = 0; i < values.length; i++) {
     .innerText = "";
         break;
 
-      case "x":
-        if (screen.innerText) {
+      case "*":
+        if (display.innerText) {
           display.innerText = display.innerText.slice(0, -1);
         }
         break;
